@@ -10,7 +10,7 @@ Summary(pl):	String::Nysiis - kodowanie fonetyczne NYSIIS
 Name:		perl-String-Nysiis
 Version:	1.00
 Release:	3
-License:	?
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	388864350483b557f478c300f040e8de
