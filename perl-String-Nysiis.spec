@@ -5,10 +5,10 @@
 %define	pdir	String
 %define	pnam	Nysiis
 Summary:	String::Nysiis - NYSIIS Phonetic Encoding
-#Summary(pl):	
+Summary(pl):	String::Nysiis - kodowanie fonetyczne NYSIIS
 Name:		perl-String-Nysiis
 Version:	1.00
-Release:	1
+Release:	2
 License:	?
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -18,11 +18,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-New York State Identification and Intelligence System (NYSIIS) algorithm
-for phonetic encoding of names.
+New York State Identification and Intelligence System (NYSIIS)
+algorithm for phonetic encoding of names.
 
-# %description -l pl
-# TODO
+%description -l pl
+Algorytm NYSIIS (New York State Identification and Intelligence
+System) do fonetycznego kodowania nazw.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -30,6 +31,7 @@ for phonetic encoding of names.
 %build
 perl Makefile.PL
 %{__make}
+
 %{!?_without_tests:%{__make} test}
 
 %install
