@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Nysiis
 Summary:	String::Nysiis - NYSIIS phonetic encoding
-Summary(pl):	String::Nysiis - kodowanie fonetyczne NYSIIS
+Summary(pl.UTF-8):   String::Nysiis - kodowanie fonetyczne NYSIIS
 Name:		perl-String-Nysiis
 Version:	1.00
 Release:	3
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 New York State Identification and Intelligence System (NYSIIS)
 algorithm for phonetic encoding of names.
 
-%description -l pl
+%description -l pl.UTF-8
 Algorytm NYSIIS (New York State Identification and Intelligence
 System) do fonetycznego kodowania nazw.
 
