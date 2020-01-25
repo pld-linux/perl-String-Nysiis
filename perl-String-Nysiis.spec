@@ -4,7 +4,6 @@
 
 %define		pdir	String
 %define		pnam	Nysiis
-%include	/usr/lib/rpm/macros.perl
 Summary:	String::Nysiis - NYSIIS phonetic encoding
 Summary(pl.UTF-8):	String::Nysiis - kodowanie fonetyczne NYSIIS
 Name:		perl-String-Nysiis
